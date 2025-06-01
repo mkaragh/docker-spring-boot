@@ -7,7 +7,7 @@ on:
 env:
   AWS_REGION: us-east-2
   EKS_CLUSTER_NAME: tripiq
-  ECR_REPO_NAME: 730335189854.dkr.ecr.us-east-2.amazonaws.com/tripiq
+  ECR_REPO_NAME: tripiq
 
 jobs:
   build-and-deploy:
